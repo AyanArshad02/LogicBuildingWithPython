@@ -3,11 +3,11 @@ def contains_duplicate(lst):
 
     for num in lst:
         if num in freq:
-            return True  # Found a duplicate
+            return True
         else:
-            freq[num] = 1  # Mark as seen
+            freq[num] = 1
 
-    return False  # No duplicates found
+    return False
 
 
 print(contains_duplicate([1, 2, 3, 4, 1]))   # Output: True

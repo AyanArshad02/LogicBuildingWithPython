@@ -6,7 +6,7 @@ def move_zeros_to_end(lst):
             lst[count] = num
             count += 1
 
-    while count < len(lst):
+    for i in range(count, len(lst)):
         lst[count] = 0
         count += 1
 
