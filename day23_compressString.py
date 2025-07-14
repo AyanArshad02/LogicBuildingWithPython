@@ -12,7 +12,6 @@ def compress_string(input_string):
             compressed += input_string[i - 1] + str(count)
             count = 1
 
-    # Add the last character and its count
     compressed += input_string[-1] + str(count)
 
     return compressed
